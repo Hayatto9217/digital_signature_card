@@ -5,6 +5,7 @@ import chalk from 'chalk';
 import boxen from 'boxen';
 import fs from 'fs';
 import path from 'path';
+const { execSync } = require('child_process');
 
 // Define options for Boxen
 const options = {
@@ -12,6 +13,14 @@ const options = {
   margin: 1,
   borderStyle: 'round'
 }
+
+// Transpile the source code using Babel and output to ./bin/card.js
+const srcPath = path.join(__dirname, 'src')
+const outPath = path.join(__dirname, 'bin', 'card.js')
+execSync(`npx babel ${srcPath} --out-file ${outPath}`)
+
+console.log('Build completed.')
+
 
 // Text + chalk definitions
 const data = {
