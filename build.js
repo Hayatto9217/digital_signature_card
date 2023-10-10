@@ -20,8 +20,8 @@ const data = {
   shorthandle: chalk.white('Haruto'),
   work: chalk.white('Software engineers interested in quantum information(::)'),
   X: chalk.gray('https://twitter.com/haruto869217') + chalk.cyan('@haruto869217'),
-  qiita: chalk.yellow('https://qiita.com/haruto19') + chalk.cyan('@haruto19'),
-  zenn: chalk.blue('https://zenn.dev/haruto869217') + chalk.cyan('@haruto869217'),
+  Qiita: chalk.yellow('https://qiita.com/haruto19') + chalk.cyan('@haruto19'),
+  Zenn: chalk.blue('https://zenn.dev/haruto869217') + chalk.cyan('@haruto869217'),
   mastodon: chalk.gray('https://mastodon.social/') + chalk.magenta('@haruto869217'),
   npm: chalk.gray('https://npmjs.com/') + chalk.red('~haruto8692'),
   github: chalk.gray('https://github.com/') + chalk.green('Hayatto9217'),
@@ -42,9 +42,9 @@ const data = {
 const newline = '\n'
 const heading = `${data.name} / ${data.handle} / ${data.shorthandle}`
 const working = `${data.labelWork}  ${data.work}`
-const xing = `${data.labelx}  ${data.x}`
+const xing = `${data.labelX}  ${data.x}`
 const qiitaing = `${data.labelQiita}  ${data.qiita}`
-const zenning = `${data.labelZenning} ${data.zenn}`
+const zenning = `${data.labelZenn} ${data.zenn}`
 const mastodoning = `${data.labelMastodon}  ${data.mastodon}`
 const npming = `${data.labelnpm}  ${data.npm}`
 const githubing = `${data.labelGitHub}  ${data.github}`
