@@ -3,9 +3,9 @@
   "type": "module",
   "version": "3.0.1",
   "description": "A personal card for Haruto Tokuyama (@haruto8692)",
-  "main": "bin/card.js",
+  "main": "dist/card.js",
   "bin": {
-    "haruto8692": "./bin/card.js"
+    "haruto8692": "./dist/card.js"
   },
   "repository": {
     "type": "git",
@@ -32,7 +32,7 @@
   "author": "Haruto Tokuyama <hello@harutotokuyama869217@gmail.com> (https://haru.haru869217.com/)",
   "license": "MIT",
   "files": [
-    "bin/card.js",
+    "dist/card.js",
     "bin/output"
   ],
   "devDependencies": {
