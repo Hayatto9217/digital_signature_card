@@ -66,4 +66,8 @@ const output = heading + // data.name + data.handle
                webing + newline + newline + // data.labelWeb + data.web
                carding // data.labelCard + data.npx
 
-              fs.writeFileSync(path.join(new URL('file:///' + import.meta.url).pathname, '../bin/output'), chalk.blue(boxen(output, options)));
+const outputPath = path.join(__dirname, 'bin/output');  // 修正: 正しいファイルパスを生成する
+
+fs.writeFileSync(outputPath, chalk.blue(boxen(output, options)));
+
+console.log(`Output written to ${outputPath}`);
