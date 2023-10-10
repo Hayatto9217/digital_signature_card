@@ -66,4 +66,4 @@ const output = heading + // data.name + data.handle
                webing + newline + newline + // data.labelWeb + data.web
                carding // data.labelCard + data.npx
 
-fs.writeFileSync(path.join(__dirname, 'bin/output'), chalk.blue(boxen(output, options)))
+              fs.writeFileSync(path.join(new URL('file:///' + import.meta.url).pathname, '../bin/output'), chalk.blue(boxen(output, options)));
