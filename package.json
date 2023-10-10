@@ -44,5 +44,10 @@
   },
   "bugs": {
     "url": "https://github.com/Hayatto9217/digital_signature_card/issues"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+      ]
   }
 }
