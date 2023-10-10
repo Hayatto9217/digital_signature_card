@@ -16,7 +16,7 @@
     "prepare": "npm run build",
     "prepublishOnly": "echo 'Prepublish only step'",
     "build": "npx babel src --out-dir dist --copy-files",
-    "dev": "npm run build && node ./bin/card.js",
+    "dev": "npm run build && node ./src/card.js",
     "lint": "standard"
   },
   "keywords": [
@@ -38,9 +38,11 @@
   "devDependencies": {
     "@babel/core": "^7.23.0",
     "@babel/preset-env": "^7.22.20",
+    "babel-cli": "^6.26.0",
     "boxen": "^7.1.1",
     "chalk": "^5.3.0",
-    "standard": "^17.1.0"
+    "standard": "^17.1.0",
+    "core-js": "^3.23.3"
   },
   "bugs": {
     "url": "https://github.com/Hayatto9217/digital_signature_card/issues"
