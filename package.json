@@ -2,9 +2,9 @@
   "name": "haruto8692",
   "version": "3.0.1",
   "description": "A personal card for Haruto Tokuyama (@haruto8692)",
-  "main": "/bin/card.js",
+  "main": "bin/card.js",
   "bin": {
-    "bitandbang": "./bin/card.js"
+    "haruto8692: "bin/card.js"
   },
   "repository": {
     "type": "git",
