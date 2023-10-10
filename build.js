@@ -16,7 +16,7 @@ const options = {
 // Text + chalk definitions
 const data = {
   name: chalk.white('           Haruto Tokuyama'),
-  handle: chalk.white('Haruto8692'),
+  handle: chalk.white('haruto8692'),
   shorthandle: chalk.white('Haruto'),
   work: chalk.white('Software engineers interested in quantum information(::)'),
   twitter: chalk.gray('https://twitter.com/haruto869217') + chalk.cyan('haruto869217'),
