@@ -13,7 +13,7 @@
   "homepage": "https://haru.haru869217.com/",
   "scripts": {
     "prepublish": "npm run build",
-    "build": "node ./build.js",
+    "build": "node ./bin/build.js",
     "dev": "npm run build && node ./bin/card.js",
     "lint": "standard"
   },
