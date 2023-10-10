@@ -3,9 +3,9 @@
   "type": "module",
   "version": "3.0.1",
   "description": "A personal card for Haruto Tokuyama (@haruto8692)",
-  "main": "dist/card.js",
+  "main": "src/card.js",
   "bin": {
-    "haruto8692": "./dist/card.js"
+    "haruto8692": "./src/card.js"
   },
   "repository": {
     "type": "git",
