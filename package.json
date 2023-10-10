@@ -1,0 +1,43 @@
+{
+  "name": "bitandbang",
+  "version": "3.0.1",
+  "description": "A personal card for Tierney Cyren (@bitandbang)",
+  "main": "/bin/card.js",
+  "bin": {
+    "bitandbang": "./bin/card.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bnb/bitandbang.git"
+  },
+  "homepage": "https://bnb.im",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "node build.js",
+    "dev": "npm run build && node ./bin/card.js",
+    "lint": "standard"
+  },
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
+  "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
+  "license": "MIT",
+  "files": [
+    "bin/card.js",
+    "bin/output"
+  ],
+  "devDependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.1",
+    "standard": "^12.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/bnb/bitandbang/issues"
+  },
+  "dependencies": {}
+}
