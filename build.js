@@ -1,10 +1,10 @@
 'use strict'
 
 // Pull in our modules
-const chalk = require('chalk')
-const boxen = require('boxen')
-const fs = require('fs')
-const path = require('path')
+import chalk from 'chalk';
+import boxen from 'boxen';
+import fs from 'fs';
+import path from 'path';
 
 // Define options for Boxen
 const options = {
