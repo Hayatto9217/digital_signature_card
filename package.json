@@ -1,16 +1,16 @@
 {
   "name": "haruto8692",
   "version": "3.0.1",
-  "description": "A personal card for Tierney Cyren (@bitandbang)",
+  "description": "A personal card for Haruto Tokuyama (@haruto8692)",
   "main": "/bin/card.js",
   "bin": {
     "bitandbang": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bnb/bitandbang.git"
+    "url": "git+https://github.com/Hayatto9217/digital_signature_card.git"
   },
-  "homepage": "https://bnb.im",
+  "homepage": "https://haru.haru869217.com/",
   "scripts": {
     "prepublish": "npm run build",
     "build": "node build.js",
@@ -24,8 +24,10 @@
     "npx",
     "npx card",
     "business card"
+    "digital signature card",
+    "digital card",
   ],
-  "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
+  "author": "Haruto Tokuyama <hello@harutotokuyama869217@gmail.com> (https://haru.haru869217.com/)",
   "license": "MIT",
   "files": [
     "bin/card.js",
@@ -37,7 +39,7 @@
     "standard": "^12.0.1"
   },
   "bugs": {
-    "url": "https://github.com/bnb/bitandbang/issues"
+    "url": "https://github.com/Hayatto9217/digital_signature_card/issues"
   },
   "dependencies": {}
 }
