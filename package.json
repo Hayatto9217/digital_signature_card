@@ -41,8 +41,8 @@
     "babel-cli": "^6.26.0",
     "boxen": "^7.1.1",
     "chalk": "^5.3.0",
-    "standard": "^17.1.0",
-    "core-js": "^3.23.3"
+    "core-js": "^3.23.3",
+    "standard": "^17.1.0"
   },
   "bugs": {
     "url": "https://github.com/Hayatto9217/digital_signature_card/issues"
