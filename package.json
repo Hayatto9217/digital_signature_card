@@ -4,7 +4,7 @@
   "description": "A personal card for Haruto Tokuyama (@haruto8692)",
   "main": "bin/card.js",
   "bin": {
-    "haruto8692: "bin/card.js"
+    "haruto8692": "bin/card.js"
   },
   "repository": {
     "type": "git",
