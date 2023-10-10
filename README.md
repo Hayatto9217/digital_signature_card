@@ -7,7 +7,7 @@ It's me, Haruto!
 ## npm
 
 ```
-npx haruto9217
+npx haruto8692
 ```
 ## GitHub Package Registry
 
