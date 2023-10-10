@@ -1,6 +1,17 @@
 'use strict'
+'use strict';
 
-const fs = require('fs')
-const path = require('path')
-const output = fs.readFileSync(path.join(__dirname, 'output'), 'utf8')
-console.log(output)
+import { readFile } from 'fs/promises';
+import { join } from 'path';
+
+const readOutput = async () => {
+  try {
+    const outputPath = join(__dirname, 'output');
+    const output = await readFile(outputPath, 'utf8');
+    console.log(output);
+  } catch (error) {
+    console.error('Error reading output:', error);
+  }
+};
+
+readOutput();
