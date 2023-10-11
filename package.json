@@ -15,8 +15,9 @@
   "scripts": {
     "prepare": "npm run build",
     "prepublishOnly": "echo 'Prepublish only step'",
-    "build": "npx babel src --out-dir dist --copy-files",
-    "dev": "npm run build && node ./dist/card.js",
+    "build": "npx babel src --out-dir dist",
+    "start": "node ./dist/card.js",
+    "dev": "npm run build && npm run start",
     "lint": "standard"
   },
   "keywords": [
