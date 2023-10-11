@@ -2,6 +2,7 @@
 
 'use strict';
 
+// constではなくimport 
 const { readFile } = require('fs/promises');
 const { dirname, join } = require('path');
 
