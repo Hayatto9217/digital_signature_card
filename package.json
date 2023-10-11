@@ -1,6 +1,5 @@
 {
   "name": "haruto8692",
-  "type": "module",
   "version": "3.0.1",
   "description": "A personal card for Haruto Tokuyama (@haruto8692)",
   "main": "dist/card.js",
