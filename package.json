@@ -3,9 +3,9 @@
   "type": "module",
   "version": "3.0.1",
   "description": "A personal card for Haruto Tokuyama (@haruto8692)",
-  "main": "src/card.js",
+  "main": "dist/card.js",
   "bin": {
-    "haruto8692": "./src/card.js"
+    "haruto8692": "./dist/card.js"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
     "prepare": "npm run build",
     "prepublishOnly": "echo 'Prepublish only step'",
     "build": "npx babel src --out-dir dist --copy-files",
-    "dev": "npm run build && node ./src/card.js",
+    "dev": "npm run build && node ./dist/card.js",
     "lint": "standard"
   },
   "keywords": [
@@ -33,7 +33,7 @@
   "license": "MIT",
   "files": [
     "dist/card.js",
-    "bin/output"
+    "dist/output"
   ],
   "devDependencies": {
     "@babel/cli": "^7.23.0",
